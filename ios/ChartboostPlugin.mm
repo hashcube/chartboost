@@ -40,7 +40,7 @@
 }
 
 - (void) showInterstitial:(NSDictionary *)jsonObject {
-	if([Chartboost hasInterstitial:CBLocationLevelComplete]) {
+	if([Chartboost hasInterstitial:CBLocationLevelComplete] == YES) {
 		[Chartboost showInterstitial:CBLocationLevelComplete];
 	}
 }
