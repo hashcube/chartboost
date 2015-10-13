@@ -1,6 +1,5 @@
 {
 	"code": [
-		"Chartboost.h",
 		"ChartboostPlugin.h",
 		"ChartboostPlugin.mm"
 	],
