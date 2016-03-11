@@ -128,12 +128,21 @@ public class ChartboostPlugin implements IPlugin {
 		Chartboost.onResume(mActivity);
 	}
 
+	public void onRenderResume() {
+	}
+
 	public void onStart() {
 		Chartboost.onStart(mActivity);
 	}
 
+	public void onFirstRun() {
+	}
+
 	public void onPause() {
 		Chartboost.onPause(mActivity);
+	}
+
+	public void onRenderPause() {
 	}
 
 	public void onStop() {
