@@ -4,8 +4,6 @@ This plugin allows you to collect analytics using the [Chartboost](https://chart
 
 ## Usage
 
-Install the addon with `basil install chartboost`.
-
 Include it in the `manifest.json` file under the "dependencies" section for your game:
 
 ~~~
