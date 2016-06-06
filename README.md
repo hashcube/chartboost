@@ -6,12 +6,12 @@ This plugin allows you to collect analytics using the [Chartboost](https://chart
 
 Install the addon with `basil install chartboost`.
 
-Include it in the `manifest.json` file under the "addons" section for your game:
+Include it in the `manifest.json` file under the "dependencies" section for your game:
 
 ~~~
-"addons": [
-	"chartboost"
-],
+"dependencies": {
+	"chartboost": "https://github.com/hashcube/chartboost.git#master"
+},
 ~~~
 
 To specify your game's AppID and AppSignature, edit the `manifest.json "android" and "ios" sections as shown below:
